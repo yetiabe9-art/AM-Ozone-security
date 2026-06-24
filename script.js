@@ -7,7 +7,7 @@ menuToggle.addEventListener("click", () => {
 
 const images = [
     "./image/map.jpg",
-    "./image/traning.jpg",
+    "./image/tran.png",
     "./image/5man.png"
 ];
 

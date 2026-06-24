@@ -219,19 +219,7 @@ grid-template-columns:1fr 1fr;
 }
 
 /* // for the rotation puprpose */
-.cardslist{
-    overflow: hidden;
-    white-space: nowrap;
-}
 
-.cardl{
-    display: inline-block;
-    padding-right: 50px;
-}
-
-.cardslist .cardl{
-    animation: moveLeft 15s linear infinite;
-}
 
 @keyframes moveLeft{
     from{
@@ -652,9 +640,6 @@ nav a:hover{
 
 }
 
-/* =========================
-   MOBILE MENU ICON
-========================= */
 
 .menu-toggle{
     display:none;
@@ -667,9 +652,6 @@ nav a:hover{
     display:none;
 }
 
-/* =========================
-   MOBILE DESIGN
-========================= */
 
 @media(max-width:768px){
 
@@ -875,4 +857,59 @@ nav a:hover{
     .contact-container{
         padding:25px;
     }
+}
+.industries{
+    padding:80px 8%;
+    background:#0b2345;
+    text-align:center;
+}
+
+.industries h2{
+    font-size:2.5rem;
+    margin-bottom:50px;
+    color:#fff;
+}
+
+.cardslist{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.cardl{
+    background:#0d2b4d;
+    padding:30px 20px;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+    transition:.4s;
+    cursor:pointer;
+}
+
+.cardl:hover{
+    transform:translateY(-10px);
+    background:#0d2b4d;
+    color:#fff;
+}
+
+.cardl i{
+    font-size:2.5rem;
+    margin-bottom:15px;
+    color:#f4b400;
+}
+
+.cardl:hover i{
+    color:#fff;
+}
+
+.cardl h3{
+    font-size:1rem;
+    margin:0;
+}
+
+.card small{
+     border: 1px solid #599c8e;
+
+}
+.card-content{
+    font-family: 'Times New Roman', Times, serif;
 }
