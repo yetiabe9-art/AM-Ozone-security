@@ -6,9 +6,12 @@ menuToggle.addEventListener("click", () => {
 });
 
 const images = [
-    "./image/scorting.png",
-    "./image/event.png",
-    "./image/5man.png"
+    "./sampleimage/guarding.jpg",
+    "/sampleimage/member.jpg",
+    "./sampleimage/Camera.jpg",
+    "./sampleimage/camera3.jpg",
+    "./sampleimage/central.jpg"
+
 ];
 
 let currentIndex = 0;
