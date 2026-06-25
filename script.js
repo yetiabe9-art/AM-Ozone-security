@@ -4,10 +4,16 @@ const navbar = document.getElementById("navbar");
 menuToggle.addEventListener("click", () => {
     navbar.classList.toggle("active");
 });
+document.querySelectorAll("#navbar a").forEach(link => {
+    link.addEventListener("click", () => {
+        navbar.classList.remove("active");
+    });
+});
+
 
 const images = [
-    "./sampleimage/guarding.jpg",
-    "/sampleimage/member.jpg",
+    
+    "./mekuriya/entrance place.jpg",
     "./sampleimage/Camera.jpg",
     "./sampleimage/camera3.jpg",
     "./sampleimage/central.jpg"
