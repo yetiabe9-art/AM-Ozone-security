@@ -15,8 +15,8 @@ const images = [
     
     "./mekuriya/entrance place.jpg",
     "./sampleimage/Camera.jpg",
-    "./sampleimage/camera3.jpg",
-    "./sampleimage/central.jpg"
+    "./sampleimage/roadfrontpage.jpg",
+    "./sampleimage/camera3.jpg"
 
 ];
 
